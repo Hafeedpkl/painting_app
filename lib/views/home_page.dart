@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
           quarterTurns: 3,
           child: Slider(
             value: selectedWidth,
-            activeColor: Colors.black,
+            activeColor: selectedColor,
             min: 1,
             max: 20,
             onChanged: (value) {
